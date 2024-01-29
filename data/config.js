@@ -43,5 +43,5 @@ export const stack = {
 
 export const contact = {
   title: 'Contact Me',
-  email: 'nelson@nlxn.xyz'
+  email: 'hello@nlxn.xyz'
 };
