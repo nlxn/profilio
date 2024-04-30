@@ -14,7 +14,7 @@ export const projects = {
   projects: [
     {
       title: 'Behance',
-      description: 'Nelson Nathan-Portfolio',
+      description: 'Portfolio',
       link: 'https://behance.net/nlxn'
     },
     {
@@ -25,7 +25,7 @@ export const projects = {
     {
       title: 'Instagram',
       description: 'Keeping it real!',
-      link: 'https://instagram.com/nlxn.xyz'
+      link: 'https://instagram.com/nlsnnthn'
     }
   ]
 };
