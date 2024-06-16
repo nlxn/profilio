@@ -10,11 +10,11 @@ export const hero = {
 
 export const projects = {
   title: 'My Links',
-  desc: "Here are links to my portfolio and socials.",
+  desc: "Here are links to my professional portfolio and socials.",
   projects: [
     {
-      title: 'Behance',
-      description: 'Portfolio',
+      title: 'LinkedIn',
+      description: 'Professional portfolio!',
       link: 'https://behance.net/nlxn'
     },
     {
@@ -25,7 +25,7 @@ export const projects = {
     {
       title: 'Instagram',
       description: 'Keeping it real!',
-      link: 'https://instagram.com/nlsnnthn'
+      link: 'https://instagram.com/nlxn.xyz'
     }
   ]
 };
