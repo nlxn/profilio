@@ -15,7 +15,7 @@ export const projects = {
     {
       title: 'LinkedIn',
       description: 'Professional portfolio!',
-      link: 'https://behance.net/nlxn'
+      link: 'https://www.linkedin.com/in/nelson-munyiamba-68214a2b9'
     },
     {
       title: 'GitHub',
