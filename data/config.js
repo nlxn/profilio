@@ -13,9 +13,9 @@ export const projects = {
   desc: "Here are links to my portfolio and socials.",
   projects: [
     {
-      title: 'LinkedIn',
-      description: 'Professional portfolio!',
-      link: 'https://www.linkedin.com/in/nelson-munyiamba-68214a2b9'
+      title: 'NLXN™ Website',
+      description: '⚠️Under construction!⚠️',
+      link: 'https://www.nlxn'
     },
     {
       title: 'GitHub',
