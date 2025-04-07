@@ -2,12 +2,12 @@
 
 export const meta = {
   title: 'Nelson Nathan - NLXN™ /nɛl ɛks ɛn/',
-  description: 'Hey, I\'m Nelson. I\'m a front-end web developer and graphic designer.'
+  description: 'From pixels to code, I design and build digital experiences that look great and work seamlessly. Nelson Nathan – where creativity and technology meet.'
 };
 
 export const hero = {
-  title: "Howdy! 🤠 I'm Nelson Nathan,",
-  desc: "a multidisciplinary designer & developer @ NLXN™ /nɛl ɛks ɛn/"
+  title: "Howdy! 🤠 I'm Nelson Nathan.",
+  desc: "A multidisciplinary designer & developer @ NLXN™ /nɛl ɛks ɛn/"
 };
 
 export const projects = {
