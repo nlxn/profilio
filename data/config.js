@@ -25,7 +25,7 @@ export const projects = {
     {
       title: 'Behance',
       description: 'I\'m just a Hueman!',
-      github: 'https://www.behance.net/nlxn'
+      link: 'https://www.behance.net/nlxn'
     },
     {
       title: 'Instagram',
