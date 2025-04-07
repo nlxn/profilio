@@ -23,6 +23,11 @@ export const projects = {
       github: 'nlxn'
     },
     {
+      title: 'Behance',
+      description: 'Coding stuff!',
+      github: 'nlxn'
+    },
+    {
       title: 'Instagram',
       description: 'Keeping it real!',
       link: 'instagram.com/nlsnnate'
