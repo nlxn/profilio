@@ -1,16 +1,16 @@
 export const meta = {
-  title: 'Nelson Nathan - NLXN®',
+  title: 'Nelson Nathan - NLXN™',
   description: 'Hey, I\'m Nelson. I\'m a front-end web developer and graphic designer.'
 }
 
 export const hero = {
   title: "Hey there! I'm Nelson Nathan.",
-  desc: "I'm a front-end web developer and graphic designer. → NLXN®"
+  desc: "I'm a front-end web developer and graphic designer. → NLXN™"
 };
 
 export const projects = {
   title: 'My Links',
-  desc: "Here are links to my professional portfolio and socials.",
+  desc: "Here are links to my portfolio and socials.",
   projects: [
     {
       title: 'LinkedIn',
