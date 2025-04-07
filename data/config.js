@@ -27,12 +27,12 @@ export const projects = {
     {
       title: 'Behance',
       description: 'I\'m just a Hueman!',
-      link: 'https://www.behance.net/nlxn'
+      behance: 'nlxn'
     },
     {
       title: 'Instagram',
       description: 'Keeping it real!',
-      link: 'https://www.instagram.com/nlsnnate'
+      instagram: 'nlsnnate'
     }
   ]
 };
