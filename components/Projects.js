@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { projects } from '@/data/config';
+import { projects } from '@/data/config'; // Assuming this is where your data comes from
 
 export default function Projects() {
   return (
@@ -10,7 +10,7 @@ export default function Projects() {
         </h2>
       </div>
       <p className="text-lg">{projects.desc}</p>
-      <div className=" mt-8">
+      <div className="mt-8">
         {projects.projects.map((item, index) => {
           return (
             <div
@@ -23,7 +23,7 @@ export default function Projects() {
                 {item.link && (
                   <a
                     href={item.link}
-                    className="flex items-center  py-1 px-3"
+                    className="flex items-center py-1 px-3"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -33,7 +33,7 @@ export default function Projects() {
                       height={18}
                       alt="Link icon"
                     />
-                    <span className="ml-2  text-lightText  transition-colors duration-500">
+                    <span className="ml-2 text-lightText transition-colors duration-500">
                       {item.link}
                     </span>
                   </a>
@@ -49,10 +49,46 @@ export default function Projects() {
                       src="/static/icons/github.svg"
                       width={18}
                       height={18}
-                      alt="Link icon"
+                      alt="GitHub icon"
                     />
-                    <span className="ml-2  text-lightText  transition-colors duration-500">
+                    <span className="ml-2 text-lightText transition-colors duration-500">
                       {item.github}
+                    </span>
+                  </a>
+                )}
+                {item.behance && (
+                  <a
+                    href={`https://www.behance.net/${item.behance}`}
+                    className="flex items-center py-1 px-3"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <Image
+                      src="/static/icons/behance.svg"
+                      width={18}
+                      height={18}
+                      alt="Behance icon"
+                    />
+                    <span className="ml-2 text-lightText transition-colors duration-500">
+                      {item.behance}
+                    </span>
+                  </a>
+                )}
+                {item.instagram && (
+                  <a
+                    href={`https://www.instagram.com/${item.instagram}`}
+                    className="flex items-center py-1 px-3"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <Image
+                      src="/static/icons/instagram.svg"
+                      width={18}
+                      height={18}
+                      alt="Instagram icon"
+                    />
+                    <span className="ml-2 text-lightText transition-colors duration-500">
+                      {item.instagram}
                     </span>
                   </a>
                 )}
