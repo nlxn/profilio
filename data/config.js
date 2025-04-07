@@ -1,5 +1,5 @@
 export const meta = {
-  title: 'Nelson Nathan - NLXN™ /nɛl ɛks ɛn/',
+  title: 'Nelson Nathan - NLXN™ (/nɛl ɛks ɛn/)',
   description: 'Hey, I\'m Nelson. I\'m a front-end web developer and graphic designer.'
 }
 
