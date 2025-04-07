@@ -7,7 +7,7 @@ export const meta = {
 
 export const hero = {
   title: "Howdy! 🤠 I'm Nelson Nathan,",
-  desc: "a multidisciplinary designer & developer. Building → NLXN™ /nɛl ɛks ɛn/"
+  desc: "a multidisciplinary designer & developer @ → NLXN™ /nɛl ɛks ɛn/"
 };
 
 export const projects = {
