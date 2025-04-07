@@ -10,7 +10,7 @@ export const hero = {
 
 export const projects = {
   title: 'My Links',
-  desc: "Here are links to my portfolio and socials.",
+  desc: "Here are links to my work website, portfolio, and socials.",
   projects: [
     {
       title: 'NLXN™ Website',
