@@ -30,7 +30,7 @@ export const projects = {
     {
       title: 'Instagram',
       description: 'Keeping it real!',
-      instagram: 'nlsnnate'
+      link: 'https://www.instagram.com/nlsnnate'
     }
   ]
 };
