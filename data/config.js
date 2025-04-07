@@ -30,7 +30,7 @@ export const projects = {
     {
       title: 'Instagram',
       description: 'Keeping it real!',
-      link: 'https://www.instagram.com/nlsnnate'
+      instagram: 'nlsnnate'
     }
   ]
 };
@@ -48,5 +48,5 @@ export const stack = {
 
 export const contact = {
   title: 'Contact Me',
-  email: 'hello@nlxn.xyz'
+  email: 'nn@nelsonnathan.com'
 };
