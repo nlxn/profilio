@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { projects } from '@/data/config'; // Assuming this is where your data comes from
+import { projects } from '@/data/config'; // Data source
 
 export default function Projects() {
   return (
@@ -89,6 +89,24 @@ export default function Projects() {
                     />
                     <span className="ml-2 text-lightText transition-colors duration-500">
                       {item.instagram}
+                    </span>
+                  </a>
+                )}
+                {item.x && (
+                  <a
+                    href={`https://x.com/${item.x}`}
+                    className="flex items-center py-1 px-3"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <Image
+                      src="/static/icons/x.svg"
+                      width={18}
+                      height={18}
+                      alt="X icon"
+                    />
+                    <span className="ml-2 text-lightText transition-colors duration-500">
+                      {item.x}
                     </span>
                   </a>
                 )}
