@@ -33,6 +33,11 @@ export const projects = {
       title: 'Instagram',
       description: 'Keeping it real!',
       instagram: 'nlxn0'
+    },
+    {
+      title: 'X',
+      description: 'Not videos!',
+      x: 'nlxn0'
     }
   ]
 };
