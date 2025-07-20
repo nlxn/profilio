@@ -32,7 +32,7 @@ export const projects = {
     {
       title: 'Instagram',
       description: 'Keeping it real!',
-      instagram: 'nlsnnate'
+      instagram: 'nlxn0'
     }
   ]
 };
@@ -50,5 +50,5 @@ export const stack = {
 
 export const contact = {
   title: 'Contact Me',
-  email: 'nn@nelsonnathan.com'
+  email: 'nelsonnathan@tuta.io'
 };
