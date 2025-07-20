@@ -35,7 +35,7 @@ export const projects = {
       instagram: 'nlxn0'
     },
     {
-      title: 'X',
+      title: 'X (Twitter)',
       description: 'Not videos!',
       x: 'nlxn0'
     }
