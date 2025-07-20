@@ -17,7 +17,7 @@ export const projects = {
     {
       title: 'NLXN™ Website',
       description: '⚠️Under construction!⚠️',
-      link: 'https://www.nlxn'
+      link: 'https://www.nlxn.xyz'
     },
     {
       title: 'GitHub',
