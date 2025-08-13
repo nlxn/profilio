@@ -1,13 +1,13 @@
 // config.js
 
 export const meta = {
-  title: 'Nelson Nathan - NLXN™ /ɛn ɛl ɛks ɛn/',
+  title: 'Nelson Nathan - NLXN™ /ˈnɛl.sən/',
   description: 'From pixels to code, I design and build digital experiences that look great and work seamlessly. Nelson Nathan – where creativity and technology meet.'
 };
 
 export const hero = {
   title: "Howdy! 🤠 I'm Nelson Nathan.",
-  desc: "A multidisciplinary designer & developer. NLXN™ /ɛn ɛl ɛks ɛn/"
+  desc: "A multidisciplinary designer & developer. NLXN™ /ˈnɛl.sən/"
 };
 
 export const projects = {
