@@ -1,12 +1,12 @@
 // config.js
 
 export const meta = {
-  title: 'Nelson-Vincent Nathan - NLXN™ /ˈnɛl.sən/',
-  description: 'From pixels to code, I design and build digital experiences that look great and work seamlessly. Nelson-Vincent Nathan – where creativity and technology meet.'
+  title: 'Nelson Nathan - NLXN™ /ˈnɛl.sən/',
+  description: 'From pixels to code, I design and build digital experiences that look great and work seamlessly. Nelson Nathan – where creativity and technology meet.'
 };
 
 export const hero = {
-  title: "Howdy! 🤠 I'm Nelson-Vincent Nathan.",
+  title: "Howdy! 🤠 I'm Nelson Nathan.",
   desc: "A multidisciplinary designer & developer. NLXN™ /ˈnɛl.sən/"
 };
 
