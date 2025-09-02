@@ -37,7 +37,7 @@ export const projects = {
     {
       title: 'X (Twitter)',
       description: 'Not videos!',
-      x: 'nelsonvnathan'
+      x: 'nlxn0'
     }
   ]
 };
