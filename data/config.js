@@ -32,7 +32,7 @@ export const projects = {
     {
       title: 'Instagram',
       description: 'Keeping it real!',
-      instagram: 'nelsonvnathan'
+      instagram: 'nlxn0'
     },
     {
       title: 'X (Twitter)',
