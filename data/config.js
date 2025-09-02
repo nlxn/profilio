@@ -32,12 +32,12 @@ export const projects = {
     {
       title: 'Instagram',
       description: 'Keeping it real!',
-      instagram: 'nlxn0'
+      instagram: 'nelsonvnathan'
     },
     {
       title: 'X (Twitter)',
       description: 'Not videos!',
-      x: 'nlxn0'
+      x: 'nelsonvnathan'
     }
   ]
 };
