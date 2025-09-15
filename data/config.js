@@ -15,7 +15,7 @@ export const projects = {
   desc: "Here are links to my work website, portfolio, and socials.",
   projects: [
     {
-      title: 'NLXN™ Website',
+      title: 'Portfolio',
       description: '⚠️Under construction!⚠️',
       link: 'https://www.nlxn.xyz'
     },
