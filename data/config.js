@@ -48,6 +48,8 @@ export const stack = {
     'HTML',
     'CSS',
     'JavaScript',
+    'React',
+    'Next.js',
     'Illustrator',
     'Photoshop'
   ]
