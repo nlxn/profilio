@@ -12,7 +12,7 @@ export default function Hero() {
             src="/static/profile.jpg"
             layout="fill"
             objectFit="contain"
-            alt="NLXN®"
+            alt="NLXN™"
           />
         </div>
         <Image
