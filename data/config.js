@@ -17,7 +17,7 @@ export const projects = {
     {
       title: 'Portfolio',
       description: '⚠️Under construction!⚠️',
-      link: 'https://nlxn.xyz/portfolio'
+      link: 'https://nlxn.xyz/portfolio',
       icon: '/static/icons/nlxn.svg'
     },
     {
