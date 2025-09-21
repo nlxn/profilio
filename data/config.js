@@ -35,6 +35,11 @@ export const projects = {
       link: 'https://linkedin.com/in/nelson-nathan'
     },
     {
+      title: 'Coursera',
+      description: 'Education & Certificates!',
+      link: 'https://www.coursera.org/learner/nelson'
+    },
+    {
       title: 'Instagram',
       description: 'Keeping it real!',
       instagram: 'nelsonvnathan'
