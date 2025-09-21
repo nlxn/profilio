@@ -58,7 +58,7 @@ export default function Projects() {
                     {(() => {
                       const url = new URL(item.link);
                       if(url.hostname.includes('linkedin.com') || url.hostname.includes('coursera.org')) {
-                        return url.pathname.replace(/^\/+/,''); // show username/path
+                        return url.pathname.replace(/^\/+/,''); // username/path only
                       }
                       return url.hostname.replace('www.',''); // default domain
                     })()}
