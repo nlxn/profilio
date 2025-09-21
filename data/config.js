@@ -37,7 +37,7 @@ export const projects = {
     {
       title: 'Coursera',
       description: 'Education & Certificates!',
-      link: 'https://www.coursera.org/learner/nelson'
+      link: 'https://coursera.org/learner/nelson'
     },
     {
       title: 'Instagram',
