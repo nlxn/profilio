@@ -49,6 +49,11 @@ export const projects = {
       title: 'X (Twitter)',
       description: 'Not videos!',
       x: 'nelsonvnathan'
+    },
+    {
+      title: 'Bluesky',
+      description: 'Sky\'s the limit',
+      link: 'https://bsky.app/profile/nelsonnathan.com'
     }
   ]
 };
