@@ -28,10 +28,10 @@ export default function Projects() {
                     rel="noreferrer"
                   >
                     <Image
-                      src="/static/icons/link.svg"
+                      src={item.icon ? item.icon : '/static/icons/link.svg'}
                       width={18}
                       height={18}
-                      alt="Link icon"
+                      alt={item.title}
                     />
                     <span className="ml-2 text-lightText transition-colors duration-500">
                       {item.link}
