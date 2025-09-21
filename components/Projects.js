@@ -20,77 +20,131 @@ export default function Projects() {
             <p>{item.description}</p>
             <div className="flex items-center flex-wrap -m-3 pt-5">
 
-              {/* --- Links / Socials --- */}
-              {['link','github','behance','instagram','x'].map((platform) => {
-                if (!item[platform]) return null;
+              {/* Portfolio */}
+              {item.title === 'Portfolio' && item.link && (
+                <a
+                  href={item.link}
+                  className="flex items-center py-1 px-3"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src={item.icon} 
+                    alt="NLXN logo"
+                    width={18}
+                    height={18}
+                  />
+                  <span className="ml-2 text-lightText transition-colors duration-500">
+                    nlxn.xyz
+                  </span>
+                </a>
+              )}
 
-                // Determine href
-                let href = '';
-                switch(platform) {
-                  case 'link':
-                    href = item.link;
-                    break;
-                  case 'github':
-                    href = `https://github.com/${item.github}`;
-                    break;
-                  case 'behance':
-                    href = `https://www.behance.net/${item.behance}`;
-                    break;
-                  case 'instagram':
-                    href = `https://www.instagram.com/${item.instagram}`;
-                    break;
-                  case 'x':
-                    href = `https://x.com/${item.x}`;
-                    break;
-                  default:
-                    break;
-                }
+              {/* Other Links */}
+              {item.title !== 'Portfolio' && item.link && (
+                <a
+                  href={item.link}
+                  className="flex items-center py-1 px-3"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src="/static/icons/link.svg"
+                    alt="Link icon"
+                    width={18}
+                    height={18}
+                  />
+                  <span className="ml-2 text-lightText transition-colors duration-500">
+                    {(() => {
+                      const url = new URL(item.link);
+                      if(url.hostname.includes('linkedin.com') || url.hostname.includes('coursera.org')) {
+                        return url.pathname.replace(/^\/+/,''); // show username/path
+                      }
+                      return url.hostname.replace('www.',''); // default domain
+                    })()}
+                  </span>
+                </a>
+              )}
 
-                // Determine display text
-                let displayText = '';
-                if(platform === 'link') {
-                  const url = new URL(item.link);
-                  if(item.title === 'Portfolio') {
-                    displayText = 'nlxn.xyz'; // custom display for Portfolio
-                  } else if(url.hostname.includes('linkedin.com') || url.hostname.includes('coursera.org')) {
-                    displayText = url.pathname.replace(/^\/+/,''); // username/path only
-                  } else {
-                    displayText = url.hostname.replace('www.',''); // default: domain
-                  }
-                } else if(platform === 'github') {
-                  displayText = `@${item.github}`;
-                } else if(platform === 'behance') {
-                  displayText = item.behance;
-                } else if(platform === 'instagram') {
-                  displayText = item.instagram;
-                } else if(platform === 'x') {
-                  displayText = item.x;
-                }
+              {/* GitHub */}
+              {item.github && (
+                <a
+                  href={`https://github.com/${item.github}`}
+                  className="flex items-center py-1 px-3"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src="/static/icons/github.svg"
+                    width={18}
+                    height={18}
+                    alt="GitHub icon"
+                  />
+                  <span className="ml-2 text-lightText transition-colors duration-500">
+                    @{item.github}
+                  </span>
+                </a>
+              )}
 
-                // Determine icon: use item.icon if present, otherwise default platform icon
-                const iconSrc = item.icon ? item.icon : `/static/icons/${platform}.svg`;
+              {/* Behance */}
+              {item.behance && (
+                <a
+                  href={`https://www.behance.net/${item.behance}`}
+                  className="flex items-center py-1 px-3"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src="/static/icons/behance.svg"
+                    width={18}
+                    height={18}
+                    alt="Behance icon"
+                  />
+                  <span className="ml-2 text-lightText transition-colors duration-500">
+                    {item.behance}
+                  </span>
+                </a>
+              )}
 
-                return (
-                  <a
-                    key={platform}
-                    href={href}
-                    className="flex items-center py-1 px-3"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    {/* Use plain <img> for SVGs to avoid Next.js caching issues */}
-                    <img
-                      src={iconSrc}
-                      alt={`${item.title} icon`}
-                      width={18}
-                      height={18}
-                    />
-                    <span className="ml-2 text-lightText transition-colors duration-500">
-                      {displayText}
-                    </span>
-                  </a>
-                );
-              })}
+              {/* Instagram */}
+              {item.instagram && (
+                <a
+                  href={`https://www.instagram.com/${item.instagram}`}
+                  className="flex items-center py-1 px-3"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src="/static/icons/instagram.svg"
+                    width={18}
+                    height={18}
+                    alt="Instagram icon"
+                  />
+                  <span className="ml-2 text-lightText transition-colors duration-500">
+                    {item.instagram}
+                  </span>
+                </a>
+              )}
+
+              {/* X (Twitter) */}
+              {item.x && (
+                <a
+                  href={`https://x.com/${item.x}`}
+                  className="flex items-center py-1 px-3"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src="/static/icons/x.svg"
+                    width={18}
+                    height={18}
+                    alt="X icon"
+                  />
+                  <span className="ml-2 text-lightText transition-colors duration-500">
+                    {item.x}
+                  </span>
+                </a>
+              )}
 
             </div>
           </div>
