@@ -28,7 +28,7 @@ export default function Projects() {
                     rel="noreferrer"
                   >
                     <Image
-                      src={item.title === 'Portfolio' ? '/static/icons/nlxn.svg' : '/static/icons/link.svg'}
+                      src={item.icon ? item.icon : '/static/icons/link.svg'}
                       width={18}
                       height={18}
                       alt={item.title}
