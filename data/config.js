@@ -30,6 +30,11 @@ export const projects = {
       behance: 'nlxn'
     },
     {
+      title: 'LinkedIn',
+      description: 'Professional profile!',
+      link: 'https://linkedin.com/in/nelson-nathan'
+    },
+    {
       title: 'Instagram',
       description: 'Keeping it real!',
       instagram: 'nelsonvnathan'
