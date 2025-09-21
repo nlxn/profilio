@@ -81,7 +81,7 @@ export default function Projects() {
                     alt="GitHub icon"
                   />
                   <span className="ml-2 text-lightText transition-colors duration-500">
-                    @{item.github}
+                    {item.github}
                   </span>
                 </a>
               )}
