@@ -54,6 +54,11 @@ export const projects = {
       title: 'Bluesky',
       description: 'Sky\'s the limit!',
       link: 'https://bsky.app/profile/nelsonnathan.com'
+    },
+    {
+      title: 'Letterboxd',
+      description: 'Movies & TV',
+      link: 'https://letterboxd.com/nlxn'
     }
   ]
 };
