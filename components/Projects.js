@@ -1,4 +1,4 @@
-import Image from 'next/image';
+// Project.js
 import { projects } from '@/data/config';
 
 export default function Projects() {
@@ -50,13 +50,12 @@ export default function Projects() {
                 let displayText = '';
                 if(platform === 'link') {
                   const url = new URL(item.link);
-                  // Special handling for Portfolio, LinkedIn, Coursera
                   if(item.title === 'Portfolio') {
-                    displayText = 'nlxn.xyz'; // short Portfolio display
+                    displayText = 'nlxn.xyz'; // custom display for Portfolio
                   } else if(url.hostname.includes('linkedin.com') || url.hostname.includes('coursera.org')) {
-                    displayText = url.pathname.replace(/^\/+/,''); // remove leading slash
+                    displayText = url.pathname.replace(/^\/+/,''); // username/path only
                   } else {
-                    displayText = url.hostname.replace('www.',''); // default domain
+                    displayText = url.hostname.replace('www.',''); // default: domain
                   }
                 } else if(platform === 'github') {
                   displayText = `@${item.github}`;
@@ -79,11 +78,12 @@ export default function Projects() {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <Image
+                    {/* Use plain <img> for SVGs to avoid Next.js caching issues */}
+                    <img
                       src={iconSrc}
+                      alt={`${item.title} icon`}
                       width={18}
                       height={18}
-                      alt={`${item.title} icon`}
                     />
                     <span className="ml-2 text-lightText transition-colors duration-500">
                       {displayText}
