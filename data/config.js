@@ -52,7 +52,7 @@ export const projects = {
     },
     {
       title: 'Bluesky',
-      description: 'Sky\'s the limit',
+      description: 'Sky\'s the limit!',
       link: 'https://bsky.app/profile/nelsonnathan.com'
     }
   ]
