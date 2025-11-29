@@ -23,43 +23,18 @@ export const projects = {
     {
       title: 'GitHub',
       description: 'Coding stuff!',
-      github: 'nlxn'
+      github: 'NLXN'
     },
     {
       title: 'Behance',
       description: 'I\'m just a Hueman!',
-      behance: 'nlxn'
+      behance: 'NLXN'
     },
     {
-      title: 'LinkedIn',
-      description: 'Professional profile!',
-      link: 'https://linkedin.com/in/nelson-nathan'
-    },
-    {
-      title: 'Coursera',
-      description: 'Education & Certificates!',
-      link: 'https://coursera.org/learner/nelson'
-    },
-    {
-      title: 'Instagram',
-      description: 'Keeping it real!',
-      instagram: 'nelsonvnathan'
-    },
-    {
-      title: 'X (Twitter)',
+      title: 'X',
       description: 'Not videos!',
-      x: 'nelsonvnathan'
+      x: '1NLXN'
     },
-    {
-      title: 'Bluesky',
-      description: 'Sky\'s the limit!',
-      link: 'https://bsky.app/profile/nelsonnathan.com'
-    },
-    {
-      title: 'Letterboxd',
-      description: 'Movies & TV',
-      link: 'https://letterboxd.com/nlxn'
-    }
   ]
 };
 
