@@ -15,9 +15,9 @@ export const projects = {
   desc: "Here are links to my portfolio, and socials.",
   projects: [
     {
-      title: 'Portfolio',
-      description: '⚠️Under construction!⚠️',
-      link: 'https://nlxn.xyz/portfolio',
+      title: 'NLXN™',
+      description: 'Nelson :)',
+      link: 'https://nlxn.xyz',
       icon: '/static/icons/nlxn.svg'
     },
     {
